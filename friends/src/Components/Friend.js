@@ -3,7 +3,7 @@ import React from "react";
 const Friend = props => {
   console.log(props);
   return (
-    <div class="test">
+    <div className="test">
       {props.friends.map(friend => {
         return (
           <p>
@@ -12,14 +12,15 @@ const Friend = props => {
           </p>
         );
       })}
-
+      {/* 
       <form>
         <input placeholder="New Friend?!" />
-
+        <input placeholder="Age" />
+        <input placeholder="Email" />
         <button>Add Friend</button>
 
-        <button>Clear Completed</button>
-      </form>
+        <button>Delete</button>
+      </form> */}
     </div>
   );
 };
