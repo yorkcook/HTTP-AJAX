@@ -14,9 +14,9 @@ const Friend = props => {
       })}
 
       <form>
-        <input placeholder="...To Do" />
+        <input placeholder="New Friend?!" />
 
-        <button>Add ToDo</button>
+        <button>Add Friend</button>
 
         <button>Clear Completed</button>
       </form>
