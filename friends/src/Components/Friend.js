@@ -3,14 +3,23 @@ import React from "react";
 const Friend = props => {
   console.log(props);
   return (
-    <div>
+    <div class="test">
       {props.friends.map(friend => {
         return (
-          <h3>
+          <p>
+            {" "}
             {friend.name} {friend.age} {friend.email}
-          </h3>
+          </p>
         );
       })}
+
+      <form>
+        <input placeholder="...To Do" />
+
+        <button>Add ToDo</button>
+
+        <button>Clear Completed</button>
+      </form>
     </div>
   );
 };
