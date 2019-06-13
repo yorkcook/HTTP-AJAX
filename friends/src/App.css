@@ -23,10 +23,10 @@
   color: #61dafb;
 }
 
-.test {
-  background: red;
+.friendInfo {
   display: flex;
   flex-direction: column;
+  border: 1px solid red;
 }
 
 @keyframes App-logo-spin {
