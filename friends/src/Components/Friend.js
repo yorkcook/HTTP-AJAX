@@ -12,14 +12,17 @@ const Friend = props => {
             <div>Email: {friend.email}</div>
           </div>
         );
-
-        // return (
-        //   <p>
-        //     {" "}
-        //     {friend.name} {friend.age} {friend.email}
-        //   </p>
-        // );
       })}
+      {/* <div>
+        <form>
+          <input placeholder="New Friend?!" />
+          <input placeholder="Age" />
+          <input placeholder="Email" />
+          <button>Add Friend</button>
+
+          <button>Delete</button>
+        </form>
+      </div> */}
     </div>
   );
 };
